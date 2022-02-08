@@ -1,8 +1,3 @@
-"""
-LESSON: 1.3 - Expressions
-EXERCISE: How Much TV?
-"""
-
 #### ---- INPUT ---- ####
 
 # Get INPUT asking the user's age, then ASSIGN to
@@ -12,7 +7,6 @@ age = input("How old are you? ")
 # Get INPUT asking for the average number of hours per
 # day they spend watching videos, then ASSIGN to the
 # variable hours
-# ---> TEST AFTER THIS LINE <--- #
 hours = input("How may hours do you spend each day watching TV? ")
 
 
@@ -21,12 +15,10 @@ hours = input("How may hours do you spend each day watching TV? ")
 # MULTIPLY the number of hours per day (float) by the
 # age of the person (int) by 365 (days in a year).
 # ASSIGN to the variable total (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 total = float(hours) * int(age) * 365
 
 # PRINT "Hours spent watching videos: " CONCATENATED
 # with the total result (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 print("Hours spent watching videos: " + str(total))
 
 
@@ -39,9 +31,4 @@ days = int(total/24)
 
 # PRINT "That's " CONCATENATED with the days variable
 # CONCATENATED with " days" (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 print("That's " + str(days) + " days!")
-
-
-# Turn in your Coding Exercise.
-
